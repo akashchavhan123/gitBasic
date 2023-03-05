@@ -32,6 +32,8 @@ public class SwitchC {
                 int mod = a/b;
                 System.out.println("Remainder is"+ mod);
                 break;
+            default:
+                System.out.println("invalid option");
         }
     }
 }
